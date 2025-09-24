@@ -1,0 +1,1 @@
+#base "../basestuff/basefiles/budhudspeedo.res" //stolen from technohud 
