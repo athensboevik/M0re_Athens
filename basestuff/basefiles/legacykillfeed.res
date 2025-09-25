@@ -18,7 +18,7 @@ HudDeathNotice
 		"CornerRadius"	  							"0"
 		"RightJustify"	  							"1"
 		
-		"TextFont"									"m0refont11"
+		"TextFont"									"m0refont9"
 		
 		"TeamBlue"									"0 238 255 255"
 		"TeamRed"									"255 0 0 255"

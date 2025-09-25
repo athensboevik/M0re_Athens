@@ -1,1 +1,1 @@
-#base "../basestuff/basefiles/budhudspeedo.res" //stolen from technohud 
+#base "basefiles/budhudspeedo.res" //stolen from technohud 

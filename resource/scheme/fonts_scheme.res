@@ -81,6 +81,25 @@
 				"antialias"									"1"
 			}
 		}
+		"m0refont14helveticaoutline"
+		{
+			"1"
+			{
+				"name"										"Helvetica Neue LT"
+				"tall"										"14"
+				"antialias"									"1"
+				"outline"									"1"
+			}
+		}
+		"m0refont15freakdrip"
+		{
+			"1"
+			{
+				"name"										"Freakdrip"
+				"tall"										"14"
+				"antialias"									"1"
+			}
+		}
 		"m0refont16"
 		{
 			"1"

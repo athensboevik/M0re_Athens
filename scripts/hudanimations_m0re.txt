@@ -2,9 +2,12 @@
 
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthBonusImage			Alpha		"255"								Linear	0.0		0.2
-	Animate	PlayerStatusHealthBonusImage			Alpha		"0"									Linear	0.2		0.4
+	SetVisible	particlz 1 0
+	SetVisible	particlz 1 0
 
+	Animate	PlayerStatusHealthBonusImage			Alpha		"255"								Linear 1 1
+	Animate	PlayerStatusHealthBonusImage			Alpha		"255"									Linear 1 1
+	
 	Animate	PlayerStatusHealthBonusBG				Alpha		"255"								Linear	0.0		0.0
 
 	Animate HealthValue_Shadow						FgColor		"Health Buff"						Linear	0.0		0.0
@@ -21,6 +24,9 @@ event HudHealthBonusPulse
 }
 event HudHealthBonusPulseStop
 {
+	SetVisible	particlz 0 0
+	SetVisible	particlz 0 0
+
 	StopEvent HudHealthBonusPulse					0.0
 	StopEvent HudHealthBonusPulseLoop				0.0
 
@@ -44,6 +50,9 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthBonusImage			Alpha		"255"								Linear	0.0		0.075
 	Animate	PlayerStatusHealthBonusImage			Alpha		"0"									Linear	0.125	0.075
 
+	SetVisible	particlz2 1 0
+	SetVisible	particlz2 1 0
+
 	Animate	PlayerStatusHealthDyingBG				Alpha		"255"								Linear	0.0		0.0
 
 	Animate HealthValue_Shadow						FgColor		"Health Hurt"						Linear	0.0		0.0
@@ -62,6 +71,9 @@ event HudHealthDyingPulseStop
 {
 	StopEvent HudHealthDyingPulse					0.0
 	StopEvent HudHealthDyingPulseLoop				0.0
+	
+	SetVisible	particlz2 0 0
+	SetVisible	particlz2 0 0
 
 	Animate	PlayerStatusHealthDyingBG				Alpha		"0"									Linear	0.0		0.0
 
