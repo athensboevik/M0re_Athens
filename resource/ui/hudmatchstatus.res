@@ -15,7 +15,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountdownLabel"
-		"font"										"m0refont24Shadow"
+		"font"										"m0refont24shadow" //m0refont24Shadow
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.1"
 		"wide"										"40"
@@ -125,15 +125,15 @@
 		"PositiveColor"								"0 255 0 255"
 		"NegativeColor"								"255 0 0 255"
 		"delta_lifetime"							"1"
-		"delta_item_font"							"m0refont11"
+		"delta_item_font"							"m0refont11" //"m0refont11"
 		"proportionaltoparent"						"1"
 
 		"TimePanelValue"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
-			"font"									"m0refont16"
-			"fgcolor"								"White"
+			"font"									"m0refont16" //"m0refont16"
+			"fgcolor"								"255 255 0 255"
 			"xpos"									"cs-0.5"
 			"ypos"									"-2"
 			"zpos"									"3"
@@ -149,8 +149,10 @@
 			{
 				"ypos"								"5"
 				"tall"								"16"
-				"font"								"m0refont14"
+				"font"								"m0refont14" //"m0refont14"
 			}
 		}
 	}
+	
+}
 	
